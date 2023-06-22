@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/Football_2-17_icon-icons.com_72112.ico">
+    <link rel="stylesheet" href="/CSS/estilos.css">
+    <title>Estefanía Banini</title>
+</head>
+<body>
+    <header class="capa-blur">
+        <div class="contenedor">
+            <h1 class="titulo">Representados</h1>
+            <input type="checkbox" id="checkbox" />
+            <img id="hamburguesa" class="icon" src="./imagenes/hamb-menu.svg" alt="menu hamburguesa" />
+            <img id="equis" class="icon" src="./imagenes/x-icono.svg" alt="icono equis cerrar menu" />
+            <nav class="menu">
+                <a href="biografia.html">Acerca de mí</a>
+                <div class="separador"></div>
+                <a href="servicios.html">Servicios</a>
+                <div class="separador"></div>
+                <a href="representados.html">Representados</a>
+                <div class="separador"></div>
+                <a href="contacto.html">Contacto</a>
+                <div class="separador"></div>
+                <a href="index.html">Inicio</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="encabezado-secundario">
+            <div id="presentacion">
+                <h3>GABRIEL LANARI</h3>
+                <h2>Acompaño en el presente, para lograr un futuro exitoso</h2>
+            </div>
+        </section>
+
+        <div class="icono-wapp">
+            <img id="wapp" src="./imagenes/Whatsapp.png" alt="icono whatsapp" title="Enviame un whatsapp" type="submit"
+                onclick="wapp()" target="_blank" />
+        </div>
+        <script src="./JS/funciones.js"></script>
+        <section>
+            <div class="modalidad">
+            <h2>ESTEFANÍA BANINI</h2>
+            <figure class="perfil-fig">
+                <img src="/imagenes/estefania-banini_perfil.png" alt="Estefanía Banini" class="perfil-img">
+            </figure>
+            
+        <div class="fondo-habilidades">
+            <h2 class="habilidades">HABILIDADES</h2>
+            <ul>
+             <li  onclick="func_office()">Capacidad Ofensiva</li>
+               <div class="barra_habilidades">
+                 <div id="barra_office"></div>
+               </div>
+               <!-- <button class="boton_niveles" onclick="func_office()">Ver Nivel</button>  -->
+               <p></p>
+             <li onclick="func_sumacrm()">Dominio de Balón</li>
+               <div class="barra_habilidades">
+                 <div id="barra_sumacrm"></div>
+               </div>
+               <!-- <button class="boton_niveles" onclick="func_sumacrm()">Ver Nivel</button> -->
+               <p></p>
+             <li onclick="func_evernote()">Visión de Juego</li>
+               <div class="barra_habilidades">
+                 <div id="barra_evernote"></div>
+               </div>
+               <!-- <button class="boton_niveles" onclick="func_evernote()">Ver Nivel</button> -->
+               <p></p>
+             <li onclick="func_googledocs()">Capacidad Defensiva</li>
+               <div class="barra_habilidades">
+                 <div id="barra_googledocs"></div>
+               </div>
+               <!-- <button class="boton_niveles" onclick="func_googledocs()">Ver Nivel</button> -->
+               <p></p>
+             <li onclick="func_trello()">Juego Aéreo</li>
+               <div class="barra_habilidades">
+                 <div id="barra_trello"></div>
+               </div>
+               <!-- <button class="boton_niveles" onclick="func_trello()">Ver Nivel</button> -->
+          </ul>
+        </div>
+            <a href="/representados.html">VOLVER</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="contenedor">
+            <div class="sociales">
+                <a href="https://www.facebook.com/" class="social-icon"
+                    target="_blank"><img src="./imagenes/icons8-facebook-100.svg" alt="Facebook link"></a>
+                <a href="https://www.instagram.com/" class="social-icon" target="_blank"><img
+                        src="./imagenes/icons8-instagram-100.svg" alt="Instagram link"></a>
+                <a href="https://www.youtube.com/"
+                    class="social-icon" target="_blank"><img src="./imagenes/youtube-122.svg" alt="Twitter link"></a>
+            </div>
+            <p class="copy">Gabriel Lanari &copy; 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
