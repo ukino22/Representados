@@ -1177,6 +1177,27 @@ form button:hover {
 
 /* ----------------------------- Fin Barras de habilidades -------------- */
 
+
+.fondo-player{
+    background: rgba(230, 230, 230, 0.4);
+    margin: 50px ;
+    padding: 3em 0;
+    border-radius: 8px;
+}
+
+.infoPlayer {
+     margin: 2em 0;
+     padding: 0;
+}
+
+.infoPlayer p{
+    text-align: justify;
+    text-justify:distribute-all-lines;
+    margin: 0 4em;
+}
+
+
+
 /* ----------------------------- Media Queries -------------------------- */
 /* 
 @media screen and (max-width: 1000px) {
