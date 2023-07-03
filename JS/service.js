@@ -5,12 +5,12 @@ function calcularPrecio() {
 	if (tipoClase == "individual") {
 		precioSesion = 2500;
 	} else if (tipoClase == "grupal") {
-		precioSesion = 1500;
+		precioSesion = 3500;
 	} else if (tipoClase == "enLinea") {
-		precioSesion = 2000;
+		precioSesion = 1000;
 	}
 	var montoAPagar = precioSesion * cantidadSesiones;
-	document.getElementById("montoAPagar").innerHTML = "$" + montoAPagar;
+	document.getElementById("montoAPagar").innerHTML = "U$S" + montoAPagar;
 }
 function inicializarMercadoPago() {
 	MercadoPago.setPublishableKey('damidiez'); /*Falta crear id Integrador*/

@@ -9,11 +9,7 @@
     <script src="https://sdk.mercadopago.com/js/v2"></script>
     <script src="./JS/service.js"></script>
     <!-- datos de Open Graph -->
-    <meta property="og:title" content="CLASES DE MÚSICA" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://clasesdemusica.netlify.app/" />
-    <meta property="og:image" content="https://strummingbars.com/wp-content/uploads/2022/11/learn-guitar-chords-fingering.jpg" />
-    <meta property="og:description" content="A tu propio ritmo, aprendé desde cero o perfeccioná lo que ya sabés. Nunca es tarde cuando la pasión es grande..." />
+    
     <title>Servicios</title>
 </head>
 <body>
@@ -52,32 +48,34 @@
 
         <section>
           <div class="modalidad">
-              <h2>PAGO DE CLASES</h2>
+              <h2>PAGO DE ASESORÍAS</h2>
               <p>¡Es rápido y fácil!</p>
               <br>
             <div class="formulario">
-                <p>Seleccione el tipo de clase y la cantidad de sesiones que desea abonar.</p>
-                <p>Cabe aclarar que las clases tienen una duración de 60 minutos.</p>
+                <p>Seleccione el tipo de asesoría.</p>
+                <p>Tiempo máximo por sesión: 15 minutos.</p>
+                <p>Modalidad: Videollamada.</p>
+                <p>Idiomas: Castellano, inglés, italiano.</p>
                 <br>
                 <br>
                 <form>
-                    <label for="tipoClase">Tipo de clase</label>
+                    <label for="tipoClase">Tipo de asesoría</label>
                     <br>
                     <select id="tipoClase" name="tipoClase">
-                        <option value="individual">Clase individual ($2500 por sesión)</option>
-                        <option value="grupal">Clase grupal ($1500 por sesión)</option>
-                        <option value="enLinea">Clase en línea ($2000 por sesión)</option>
+                        <option value="individual">Para jugadores (U$S 2500 por sesión)</option>
+                        <option value="grupal">Para clubes (U$S 3500 por sesión)</option>
+                        <option value="enLinea">Para colegas (U$S 1000 por sesión)</option>
                     </select>
                     <br>
                     <br>
-                    <label for="cantidadSesiones">Cantidad de clases</label>
+                    <label for="cantidadSesiones">Cantidad de sesiones</label>
                     <br>
                     <input type="number" id="cantidadSesiones" name="cantidadSesiones" min="1" max="100" value="1">
                     <br>
                     <br>
                     <label for="montoAPagar">Monto a pagar</label>
                     <br>
-                    <span id="montoAPagar">$0</span>
+                    <span id="montoAPagar">U$S 0</span>
                     <br>
                     <br>
                     <button type="button" onclick="calcularPrecio()">Calcular monto a pagar</button>
