@@ -37,7 +37,7 @@ function anselmi() {
   
 // DARWIN NUÑEZ //
 
-  function func_office() {
+  function func_nunez_ofensiva() {
     var elem = document.getElementById("barra_office");   
     var width = 1;
     var id = setInterval(frame, 10);
@@ -51,8 +51,22 @@ function anselmi() {
     }
   }
 
-  function func_sumacrm() {
+  function func_nunez_balon() {
     var elem = document.getElementById("barra_sumacrm");   
+    var width = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 97) {
+        clearInterval(id);
+      } else {
+        width++; 
+        elem.style.width = width + '%'; 
+      }
+    }
+  }
+
+  function func_nunez_vision() {
+    var elem = document.getElementById("barra_evernote");   
     var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
@@ -64,9 +78,9 @@ function anselmi() {
       }
     }
   }
-
-  function func_evernote() {
-    var elem = document.getElementById("barra_evernote");   
+  
+  function func_nunez_defensiva() {
+    var elem = document.getElementById("barra_googledocs");   
     var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
@@ -78,27 +92,13 @@ function anselmi() {
       }
     }
   }
-  
-  function func_googledocs() {
-    var elem = document.getElementById("barra_googledocs");   
-    var width = 1;
-    var id = setInterval(frame, 10);
-    function frame() {
-      if (width >= 100) {
-        clearInterval(id);
-      } else {
-        width++; 
-        elem.style.width = width + '%'; 
-      }
-    }
-  }
 
-  function func_trello() {
+  function func_nunez_aereo() {
     var elem = document.getElementById("barra_trello");   
     var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
-      if (width >= 80) {
+      if (width >= 98) {
         clearInterval(id);
       } else {
         width++; 
@@ -142,7 +142,7 @@ function anselmi() {
     var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
-      if (width >= 90) {
+      if (width >= 85) {
         clearInterval(id);
       } else {
         width++; 
@@ -156,7 +156,7 @@ function anselmi() {
     var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
-      if (width >= 70) {
+      if (width >= 75) {
         clearInterval(id);
       } else {
         width++; 
@@ -170,7 +170,7 @@ function anselmi() {
     var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
-      if (width >= 100) {
+      if (width >= 40) {
         clearInterval(id);
       } else {
         width++; 
@@ -184,7 +184,7 @@ function anselmi() {
     var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
-      if (width >= 80) {
+      if (width >= 90) {
         clearInterval(id);
       } else {
         width++; 
@@ -214,7 +214,7 @@ function func_advincula_ofensiva() {
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 100) {
+    if (width >= 80) {
       clearInterval(id);
     } else {
       width++; 
@@ -228,7 +228,7 @@ function func_advincula_balon() {
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 90) {
+    if (width >= 85) {
       clearInterval(id);
     } else {
       width++; 
@@ -270,7 +270,7 @@ function func_advincula_aereo() {
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 80) {
+    if (width >= 95) {
       clearInterval(id);
     } else {
       width++; 
@@ -300,7 +300,7 @@ function func_office() {
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 100) {
+    if (width >= 90) {
       clearInterval(id);
     } else {
       width++; 
@@ -314,7 +314,7 @@ function func_sumacrm() {
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 90) {
+    if (width >= 100) {
       clearInterval(id);
     } else {
       width++; 
@@ -328,7 +328,7 @@ function func_evernote() {
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 70) {
+    if (width >= 100) {
       clearInterval(id);
     } else {
       width++; 
@@ -342,7 +342,7 @@ function func_googledocs() {
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 100) {
+    if (width >= 45) {
       clearInterval(id);
     } else {
       width++; 
@@ -356,7 +356,7 @@ function func_trello() {
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 80) {
+    if (width >= 60) {
       clearInterval(id);
     } else {
       width++; 
@@ -381,12 +381,12 @@ function func_ingles() {
 
 // BRUNO ZUCULINI //
 
-function func_office() {
+function func_zuculini_ofensiva() {
   var elem = document.getElementById("barra_office");   
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 100) {
+    if (width >= 75) {
       clearInterval(id);
     } else {
       width++; 
@@ -395,12 +395,12 @@ function func_office() {
   }
 }
 
-function func_sumacrm() {
+function func_zuculini_balon() {
   var elem = document.getElementById("barra_sumacrm");   
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 90) {
+    if (width >= 80) {
       clearInterval(id);
     } else {
       width++; 
@@ -409,7 +409,7 @@ function func_sumacrm() {
   }
 }
 
-function func_evernote() {
+function func_zuculini_vision() {
   var elem = document.getElementById("barra_evernote");   
   var width = 1;
   var id = setInterval(frame, 10);
@@ -423,7 +423,7 @@ function func_evernote() {
   }
 }
 
-function func_googledocs() {
+function func_zuculini_defensiva() {
   var elem = document.getElementById("barra_googledocs");   
   var width = 1;
   var id = setInterval(frame, 10);
@@ -437,12 +437,12 @@ function func_googledocs() {
   }
 }
 
-function func_trello() {
+function func_zuculini_aereo() {
   var elem = document.getElementById("barra_trello");   
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 80) {
+    if (width >= 95) {
       clearInterval(id);
     } else {
       width++; 
@@ -467,7 +467,7 @@ function func_ingles() {
 
 // KEVIN MIER //
 
-function func_office() {
+function func_mier_centros() {
   var elem = document.getElementById("barra_office");   
   var width = 1;
   var id = setInterval(frame, 10);
@@ -481,7 +481,7 @@ function func_office() {
   }
 }
 
-function func_sumacrm() {
+function func_mier_pies() {
   var elem = document.getElementById("barra_sumacrm");   
   var width = 1;
   var id = setInterval(frame, 10);
@@ -495,12 +495,12 @@ function func_sumacrm() {
   }
 }
 
-function func_evernote() {
+function func_mier_reaccion() {
   var elem = document.getElementById("barra_evernote");   
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 70) {
+    if (width >= 95) {
       clearInterval(id);
     } else {
       width++; 
@@ -509,12 +509,12 @@ function func_evernote() {
   }
 }
 
-function func_googledocs() {
+function func_mier_penales() {
   var elem = document.getElementById("barra_googledocs");   
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 100) {
+    if (width >= 90) {
       clearInterval(id);
     } else {
       width++; 
@@ -523,7 +523,7 @@ function func_googledocs() {
   }
 }
 
-function func_trello() {
+function func_mier_porteria() {
   var elem = document.getElementById("barra_trello");   
   var width = 1;
   var id = setInterval(frame, 10);
@@ -553,7 +553,7 @@ function func_ingles() {
 
 // ESTEFANÍA BANINI //
 
-function func_office() {
+function func_banini_ofensiva() {
   var elem = document.getElementById("barra_office");   
   var width = 1;
   var id = setInterval(frame, 10);
@@ -567,8 +567,22 @@ function func_office() {
   }
 }
 
-function func_sumacrm() {
+function func_banini_balon() {
   var elem = document.getElementById("barra_sumacrm");   
+  var width = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 95) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+    }
+  }
+}
+
+function func_banini_vision() {
+  var elem = document.getElementById("barra_evernote");   
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
@@ -581,26 +595,12 @@ function func_sumacrm() {
   }
 }
 
-function func_evernote() {
-  var elem = document.getElementById("barra_evernote");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 70) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-
-function func_googledocs() {
+function func_banini_defensiva() {
   var elem = document.getElementById("barra_googledocs");   
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 100) {
+    if (width >= 60) {
       clearInterval(id);
     } else {
       width++; 
@@ -609,12 +609,12 @@ function func_googledocs() {
   }
 }
 
-function func_trello() {
+function func_banini_aereo() {
   var elem = document.getElementById("barra_trello");   
   var width = 1;
   var id = setInterval(frame, 10);
   function frame() {
-    if (width >= 80) {
+    if (width >= 65) {
       clearInterval(id);
     } else {
       width++; 
@@ -622,106 +622,3 @@ function func_trello() {
     }
   }
 }
-
-function func_ingles() {
-  var elem = document.getElementById("barra_ingles");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 80) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-
-// MARTÍN ANSELMI //
-
-function func_office() {
-  var elem = document.getElementById("barra_office");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 100) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-
-function func_sumacrm() {
-  var elem = document.getElementById("barra_sumacrm");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 90) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-
-function func_evernote() {
-  var elem = document.getElementById("barra_evernote");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 70) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-
-function func_googledocs() {
-  var elem = document.getElementById("barra_googledocs");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 100) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-
-function func_trello() {
-  var elem = document.getElementById("barra_trello");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 80) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-
-function func_ingles() {
-  var elem = document.getElementById("barra_ingles");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 80) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-
-
-

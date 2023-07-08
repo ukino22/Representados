@@ -33,11 +33,11 @@ body {
     margin-left: auto;
 }
 
-.container {
-    /* margin-right: auto;
+/* .container {
+    margin-right: auto;
     margin-left: auto;
-    width: 92%; */
-}
+    width: 92%;
+} */
 
 section {
     /* font-family: 'Nova Square', cursive; */
@@ -718,7 +718,8 @@ iframe {
 .formulario {
     width: 220px;
     margin: 0 auto;
-    background-color: #264663;
+    /* background-color: #264663; */
+    background-color: #083f18;
     padding: 0.8em 0;
     border: 3px solid #fff;
     border-radius: 5px;
@@ -889,18 +890,39 @@ form button:hover {
 
 /* ----------------------------- Fin Formularios ------------------------ */
 
-/* -----------------------------  Mapa ---------------------------------- */
-#map {
-    height: 400px;
-    width: 98%;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0.3em;
-    border-radius: 5px;
-    /* padding: 0.3em; */
+/* -----------------------------  Lista Youtube ---------------------------------- */
+.modalidad ul {
+    padding: 1.80em;
+    list-style: none;
 }
+
+.modalidad li {
+    max-width: 18em;
+    margin: 0.4em auto 0.4em auto;
+    padding: 0.5em;
+    border: 2px solid red;
+    border-radius: 0.5em;
+    align-items: center;
+    text-align: left;
+}
+
+.modalidad li {
+    background: rgb(51, 51, 51);
+}
+
+.modalidad li:hover {
+    background: rgba(230, 230, 230, 0.4);
+    color: white;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.modalidad a {
+    text-decoration: none;
+    color: #f3e635;
+    cursor: pointer;
+}
+
 
 /* ----------------------------- Fin Mapa ------------------------------- */
 
@@ -1054,11 +1076,33 @@ form button:hover {
 
 .barra_habilidades {
     position: relative;
-    width: 400px;
+    width: 150px;
     height: 20px;
     background-color: rgb(145, 145, 145);
     border-radius: 10px;
-    margin: 20px 0 20px 50px;
+    margin: 20px 0 20px 0;
+    align-items: center;
+}
+
+.boton-capacidades li {
+    max-width: 10em;
+    margin: auto;
+    padding: 0.5em;
+    /* border: 2px solid rgb(145, 123, 123); */
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.5em;
+    align-items: center;
+    text-align: center;
+}
+
+.boton-capacidades li:hover{
+    background: rgba(230, 230, 230, 0.4);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-shadow: none;
+    border: 2px solid rgb(22, 252, 1);
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 #barra_office {
@@ -1128,36 +1172,6 @@ form button:hover {
     background-color: black;
     color: #fff;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
-}
-.modalidad ul {
-    padding: 1.80em;
-    list-style: none;
-}
-
-.modalidad li {
-    max-width: 18em;
-    margin: 0.4em auto 0.4em auto;
-    padding: 0.5em;
-    border: 2px solid red;
-    border-radius: 0.5em;
-    align-items: center;
-    text-align: left;
-}
-
-.modalidad li {
-    background: rgb(51, 51, 51);
-}
-
-.modalidad li:hover {
-    background: rgba(230, 230, 230, 0.4);
-    color: white;
-    transform: scale(1.02);
-}
-
-.modalidad a {
-    text-decoration: none;
-    color: #f3e635;
-    cursor: pointer;
 }
 
 .habilidades{
@@ -1300,6 +1314,22 @@ form button:hover {
         width: 46%;
         margin: 0.5em 0.5em 0 0.5em;
     }
+
+    
+.boton-capacidades li {
+    max-width: 14em;
+    margin: 0.4em .8em 0.4em auto;
+}
+
+
+.barra_habilidades {
+    position: relative;
+    width: 250px;
+    height: 20px;
+    background-color: rgb(145, 145, 145);
+    border-radius: 10px;
+    margin: 20px 0 20px 50px;
+}
 
 }
 
