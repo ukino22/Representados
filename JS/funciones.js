@@ -1,6 +1,6 @@
 
 function wapp() {
-    window.open('https://api.whatsapp.com/send?phone=5491159791914&text=Hola%20Federico.%20Te%20contacto%20por%20las%20las%20clases%20de%20música%20');
+    window.open('https://api.whatsapp.com/send?phone=5491159791914&text=Hola%20Gabriel.%20Te%20contacto%20por%20tus%20servicios%20');
   }  
 
 function darwin() {
