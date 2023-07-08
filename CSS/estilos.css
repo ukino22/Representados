@@ -265,10 +265,10 @@ background-size: 100% 30px; */
     border-radius: 5px;
 }
 
-.bloque-1 {
+/* .bloque-1 {
     height: 90vh;
 
-}
+} */
 
 /* ------------------------ Fin Modalidad ------------------------------- */
 
@@ -1283,6 +1283,7 @@ form button:hover {
         /* justify-content: space-around; */
     }
     /* .wrapper {padding: 20px 20px;} */
+    .cajita { margin: auto;}
 } 
 
 @media screen and (max-width: 480px){
